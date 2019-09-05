@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background: indigo;
+    background-size: contain;
+    background-position: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.contact-me{
+    margin: 100px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+}
+
+.contact-me h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.form{
+    margin: 50px;
+    transition: all 3s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
